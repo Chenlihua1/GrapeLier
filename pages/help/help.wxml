@@ -1,0 +1,32 @@
+<!--pages/help/help.wxml-->
+<view class='page_row' bindtap="suo">
+   <view class="df search_arr">
+      <icon class="searchcion" size='20' type='search'></icon>
+      <input class="" disabled placeholder="搜索帮助内容" value="{{searchValue}}"/>
+   </view>
+</view>
+<i-row i-class="demo-row">
+    <i-col span="12" i-class="demo-col" bindtap="feedback">
+     <i-icon type="brush" slot="icon" size='25' style='margin:5px'/>我要反馈</i-col>
+    <i-col span="12" i-class="demo-col" bindtap="feedbackform">
+    <i-icon type="message" slot="icon" size='25' style='margin:5px'/>反馈记录</i-col>
+</i-row>
+<i-panel class="cell-panel-demo" title="常见问题">
+  <i-cell-group>
+      <i-cell title="如何举报？怎么正确使用举报功能？"is-link url="/pages/index/index"></i-cell>
+      <i-cell title="如何更换绑定？如何解绑手机号？"is-link url="/pages/index/index"></i-cell>
+      <i-cell title="被禁言如何申述"is-link url="/pages/index/index"></i-cell>
+  </i-cell-group>
+</i-panel><i-panel class="cell-panel-demo" title="问题分类">
+  <i-cell-group>
+      <i-cell title="举报投诉（规范/举报/申述等）"is-link url="/pages/index/index">
+      <i-icon type="prompt" slot="icon" color='#78A5F1' size='25' /></i-cell>
+      <i-cell title="账号服务（解换绑/账号安全等）"is-link url="/pages/index/index">
+      <i-icon type="group" slot="icon" color='#FF7DB2' size='25' /></i-cell>
+      <i-cell title="支付服务（充值/余额/提现等）"is-link url="/pages/index/index">
+      <i-icon type="transaction_fill" slot="icon" color='#FCB10D' size='25'/></i-cell>
+      <i-cell title="其他问题"is-link url="/pages/index/index">
+      <i-icon type="more" slot="icon" color='#1D4FD4' size='25'/></i-cell>
+  </i-cell-group>
+</i-panel>
+

@@ -1,0 +1,79 @@
+/* pages/home/home.wxss */
+page{
+  background-color: #f0f0f0;
+  height: 100%;
+}
+.search{
+  width: 82%;
+}
+.search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin-left: 5rpx;
+  background-color: #fff
+}
+.search_arr input{
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+.sousuo {
+  margin-left: 15rpx;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+  border: 1px solid #331b36;
+  border-radius: 10rpx;
+}
+.page_row{
+  display: flex;
+  flex-direction: row;
+  padding: 2% 3%;
+  background: rgb(28, 173, 89);
+  margin: 11px;
+}
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  left:50rpx;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  margin: 11px;
+  border: 1px solid rgb(223, 222, 213);
+  border-radius: 3px;
+  background-color: rgba(148, 253, 148, 0.295);
+}
+.order{
+  margin-top: 35px;
+}
+.num{
+  font-size: 20px;
+  color: red;
+  margin: 15px;
+  font-weight: bold;
+}
+.pic{
+  height: 80px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 8px
+}
+.title{
+  font-size: 13px;
+  font-weight: bold;
+}
+.hot{
+  font-size: 12px;
+  color: gainsboro;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  padding: 1% 3%;
+}

@@ -1,0 +1,9 @@
+/* pages/answer/answer.wxss */
+.input_border{
+  border: 1px solid #29883e;
+  margin: 5px;
+}
+.publish{
+  margin-top: 10px;
+  text-align: right;
+}

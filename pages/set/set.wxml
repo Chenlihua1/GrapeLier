@@ -1,0 +1,51 @@
+<!--pages/set/set.wxml-->
+<i-panel class="cell-panel-demo" title="基本设置">
+  <i-cell-group>
+      <i-cell title="水印图片" label="在上传的图片中添加水印">
+          <i-switch value="{{switch1}}" size="large" bind:change="onChange1" slot="footer">
+              <view slot="open">开启</view>
+              <view slot="close">关闭</view>
+          </i-switch>
+      </i-cell>
+      <i-cell title="省流量模式" label="仅在wi-fi环境下才会自动加载图片">
+          <i-switch value="{{switch2}}" size="large" bind:change="onChange2" slot="footer">
+              <view slot="open">开启</view>
+              <view slot="close">关闭</view>
+          </i-switch>
+      </i-cell>
+      <i-cell title="自动下载更新" label="仅在wi-fi环境下会自动下载">
+          <i-switch value="{{switch3}}" size="large" bind:change="onChange3" slot="footer">
+              <view slot="open">开启</view>
+              <view slot="close">关闭</view>
+          </i-switch>
+      </i-cell>
+      <i-cell title="清除缓存" label="包括图片、音频呵视频缓存（共30M）"></i-cell>
+  </i-cell-group>
+</i-panel>
+<i-panel class="cell-panel-demo" title="通知设置">
+  <i-cell-group>
+      <i-cell title="消息通知" label="互动消息" is-link url="/pages/index/index"></i-cell>
+      <i-cell title="系统通知" label="系统推送消息" is-link url="/pages/index/index"></i-cell>
+  </i-cell-group>
+</i-panel>
+<i-panel class="cell-panel-demo" title="账号设置">
+  <i-cell-group>
+      <i-cell title="账号与安全" label="管理账号安全" is-link url="/pages/index/index"></i-cell>
+      <i-cell title="黑名单" label="管理黑名单" is-link url="/pages/index/index"></i-cell>
+  </i-cell-group>
+</i-panel>
+<i-panel class="cell-panel-demo" title="其他">
+  <i-cell-group>
+      <i-cell title="关于" is-link url="/pages/index/index"></i-cell>
+      <i-cell title="版本与更新" label="最新版本v.6.2"></i-cell>
+      <i-cell class="logout" title="退出登录"></i-cell>
+  </i-cell-group>
+</i-panel>
+
+
+
+
+
+
+
+

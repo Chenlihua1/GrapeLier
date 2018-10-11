@@ -1,50 +1,55 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/icon/index",
-    "pages/color/index",
-    "pages/button/index",
-    "pages/card/index",
-    "pages/list/index",
-    "pages/panel/index",
-    "pages/grid/index",
-    "pages/layout/index",
-    "pages/action-sheet/index",
-    "pages/alert/index",
-    "pages/avatar/index",
-    "pages/badge/index",
-    "pages/checkbox/index",
-    "pages/drawer/index",
-    "pages/input/index",
-    "pages/input-number/index",
-    "pages/message/index",
-    "pages/modal/index",
-    "pages/notice-bar/index",
-    "pages/page/index",
-    "pages/progress/index",
-    "pages/radio/index",
-    "pages/rate/index",
-    "pages/spin/index",
-    "pages/steps/index",
-    "pages/switch/index",
-    "pages/tab-bar/index",
-    "pages/tabs/index",
-    "pages/tag/index",
-    "pages/toast/index",
-    "pages/swipeout/index",
-    "pages/count-down/index",
-    "pages/divider/index",
-    "pages/index-list/index",
-    "pages/collapse/index",
-    "pages/sticky/index",
-    "pages/load-more/index"
+    "pages/home/home",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/all/all",
+    "pages/logs/logs",
+    "pages/answer/answer",
+    "pages/add_answer/add_answer",
+    "pages/advice/advice",
+    "pages/mine/mine",
+    "pages/wallet/wallet",
+    "pages/sign/sign",
+    "pages/vip/vip",
+    "pages/circles/circles",
+    "pages/sort/sort",
+    "pages/active/active",
+    "pages/nearby/nearby",
+    "pages/help/help",
+    "pages/set/set",
+    "pages/orange/orange"
   ],
-  "window": {
-    "navigationBarBackgroundColor": "#FAFAFA",
-    "navigationBarTitleText": "iView WeApp",
-    "navigationBarTextStyle": "black",
-    "backgroundTextStyle": "dark",
-    "backgroundColor": "#f9f9f9"
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#59A328",
+    "navigationBarTitleText": "Grape",
+    "navigationBarTextStyle":"black"
   },
-  "debug": true
+  "tabBar": {
+    "color": "#303030",
+    "selectedColor": "red",
+    "backgroundColor": "#red",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "img/hot_selected.png",
+        "selectedIconPath": "img/hot.png",
+        "pagePath": "pages/home/home",
+        "text": "热点"
+      },
+      {
+        "iconPath": "img/advice_selected.png",
+        "selectedIconPath": "img/advice.png",
+        "pagePath": "pages/advice/advice",
+        "text": "通知"
+      },
+      {
+        "iconPath": "./img/mine_selected.png",
+        "selectedIconPath": "./img/mine.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
 }

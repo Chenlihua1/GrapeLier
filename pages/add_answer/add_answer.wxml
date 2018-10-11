@@ -1,0 +1,24 @@
+<!--pages/add_answer/add_answer.wxml-->
+<view class='input_border'>
+    <textarea rows="100" cols="5" placeholder='请输入评论内容...' maxlength='-1' show-confirm-show-confirm-bar='true' style='width:100vm'></textarea>
+</view>
+<view class='publish'>
+    <i-button bind:click="handleOpen5" inline type="success" >发布</i-button>
+    <i-modal title="提示" visible="{{ visible5 }}" actions="{{ actions5 }}" bind:click="handleClick5">
+        <view>确认发布？</view>
+    </i-modal>
+    <i-message id="message" />
+</view>
+<view class='body'>
+      <view class='body_name1'>
+          <view>
+            <image class="head" src="/img/bobi.jpg"></image>\t
+          </view>
+          <view class='body_name'>
+            <text>铁树花</text>
+          </view>
+      </view>
+      <view>
+          <text class='txt'>谢邀。先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好。爱美丽作为主帅</text>
+      </view>
+</view> 

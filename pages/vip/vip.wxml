@@ -1,0 +1,18 @@
+<!--pages/vip/vip.wxml-->
+<view class="userinfo">
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  <block wx:else>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </block>
+</view>
+<view class='card'>
+  <i-card full title="我的信息" i-class="information">
+      <view slot="content"></view>
+      <view slot="footer" class='footer'>
+      <text>成长值 2562</text>
+      <text>优惠券 3</text>
+      <text>有效期 2020-02-16</text>
+      </view>
+  </i-card>
+</view>

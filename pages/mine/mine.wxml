@@ -1,0 +1,41 @@
+<!--pages/mine/mine.wxml-->
+<view class='mine'>
+  <view class="userinfo">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+        <block wx:else>
+          <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image> 
+          <view class='user_name'>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+            <text>ID:12345678</text>
+          </view>
+        </block>
+  </view>
+  <view class='menu'>
+      <view class='menu_name'>
+      <text>创作</text>
+      </view>
+      <view class='menu_sty'>|</view>
+      <view class='menu_name'>
+      <text>关注</text>
+      </view>
+      <view class='menu_sty'>|</view>
+      <view class='menu_name'>
+      <text>收藏</text>
+      </view>
+      <view class='menu_sty'>|</view>
+      <view class='menu_name'>
+      <text>浏览</text>
+      </view>
+  </view>
+  <!--九宫格-->
+  <import src="cell.wxml" />
+  <view class="pages-container">
+      <view wx:for="{{pageItems}}" wx:key="{{text}}">
+        <view class="pages-row">
+          <template is="cell" data="{{...item[0],cellHeight}}" />
+          <template is="cell" data="{{...item[1],cellHeight}}" />
+          <template is="cell" data="{{...item[2],cellHeight}}" />
+        </view>
+      </view>
+  </view>
+</view>

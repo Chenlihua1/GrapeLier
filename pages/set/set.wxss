@@ -1,0 +1,9 @@
+/* pages/set/set.wxss */
+.cell-panel-demo{
+    display: block;
+    margin-top: 15px;
+    color: #1CAD59;
+}
+.logout{
+  color: red;
+}

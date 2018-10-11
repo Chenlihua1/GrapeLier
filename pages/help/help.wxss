@@ -1,0 +1,40 @@
+/* pages/help/help.wxss */
+.search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin-left: 5rpx;
+  background-color: rgb(248, 247, 247);
+  width: 98%;
+}
+.search_arr input{
+  margin-left: 100rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+.page_row{
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+}
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  left:50rpx;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.quxiao{
+  font-size: 20px;
+  color: #d0d0d0;
+  padding-left: 10px;
+  text-align: center;
+  line-height: 35px;
+  height: 35px
+}
+.demo-row{
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 3px solid #d0d0d0;
+}

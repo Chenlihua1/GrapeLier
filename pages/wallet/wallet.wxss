@@ -1,0 +1,96 @@
+/* pages/wallet/wallet.wxss */
+.wallet{
+  background-color: #f0f0f0;
+  height: 100%;
+}
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom:#aaa solid 1px
+
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+.user_name{
+  color: #aaa;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 15px;
+  padding: 3px
+}
+.pay_num{
+  font-size: 18px;
+  color: gray;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+.itemBox{
+  display:flex;
+  flex-flow: wrap;
+  text-align: center;
+  margin-top: 40px
+}
+.itemBox view{
+  width: 30%;
+  height: 65px;
+  margin: 5px;
+}
+.itemBox view>div{
+  text-align: center;
+  padding: 20px;
+  margin:5px;
+  border-radius: 8px;
+  background: white;
+  border: 2px solid white;
+  color: gray;
+  font-size: 15px;
+}
+.itemBox view.active>div{
+  background: #ddf0ff;
+  border: 2px solid #5cbcfe;
+  color: #2c98ef;
+}
+.recharge{
+  text-align: center;
+  line-height: 40px;
+  background-color: rgb(101, 180, 48);
+  border-radius: 8px;
+  height: 40px;
+  margin: 23px 60px;
+}
+.pay_type{
+  padding: 10px
+}
+.pay_type view{
+  padding: 5px
+}
+.pay_type view>image{
+  height: 30px;
+  width: 30px
+}
+.alipay{
+  text-align: left;
+  line-height: 40px; 
+}
+.radio-group {
+    border-bottom: 1px solid #ddd;
+}
+.radio {
+    display: block;
+    border-top: 1px solid #ddd;
+    padding: 5px;
+}

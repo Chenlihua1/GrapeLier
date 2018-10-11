@@ -1,0 +1,31 @@
+<!--pages/wallet/wallet.wxml-->
+<view class='wallet'>
+    <view class="userinfo">
+          <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+          <block wx:else>
+            <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image> 
+            <view class='user_name'>
+              <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+              <text style='padding:10px'>钻石余额：99</text>
+            </view>
+          </block>
+    </view>
+  <!--充值选项-->
+    <view class='main'>
+      <view class='pay_num'>
+          <text>选择充值金额</text>
+      </view>
+      <view class='flex between itemBox'>
+          <view class="{{index == wallet ? 'active':''}}"  wx:for="{{numArray}}" wx:key="key" bindtap='activethis' data-wallet='{{index}}'><div>{{item}}元</div></view>
+      </view>
+    </view>
+    <view class="page__hd">
+        <text class="page__title">支付方式</text>
+    </view>
+   <radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}" wx:key="key">
+    <radio value="{{item.name}}" checked="{{item.checked}}" images='item.img'/>{{item.value}}
+  </label>
+</radio-group>
+    <view class='recharge'>立即充值</view>
+</view>

@@ -1,0 +1,100 @@
+<!--pages/all/all.wxml-->
+<view>
+    <view class='title'>
+        <view class='inner_title'>
+          <text class='title_detail'>如何评价 2018-2019 赛季英超联赛首轮阿森纳 0:2 主场不敌曼城？</text>
+        </view>
+
+        <view class='out_answer'>
+            <view>
+              <text class='hot' space="emsp">276人关注  3条评论</text>
+            </view>
+            <view>
+              <button type="default" size="mini">
+                <image class="pic" src="/img/plus.png"></image>
+                <text class='answer'>关注问题</text>
+              </button>
+            </view>
+        </view>
+    </view>
+</view>
+<view class='in_answer'>
+    <view>
+        <image class="pic1" src="/img/join.png"></image>\t
+        <text>邀请回答</text>
+    </view>
+    <view bindtap="add_answer">
+        <image class="pic1" src="/img/input.png"></image>\t
+        <text>添加回答</text>
+    </view>
+</view>
+
+<view class='out_ans'>
+  <view class='bor_ans'>
+    <text class='hot'>141个回答</text>
+  </view>
+  <view class='bor_ans'>
+    <text class='hot'>按质量排序</text>\t
+    <image class="pic1" src="/img/trg_down.png"></image>
+  </view>
+</view>
+
+<scroll-view scroll-y="true" bindscroll="scrollTopFun" class='pos'>
+  <view>
+    <view class='body' bindtap='detail'>
+      <view class='body_name1'>
+        <view>
+          <image class="head" src="/img/bobi.jpg"></image>\t
+        </view>
+        <view class='body_name'>
+          <text>Grape</text>
+        </view>
+      </view>
+        <view>
+          <text class='txt'>谢邀。先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好。爱美丽作为主帅</text>
+        </view>
+    </view>  
+
+        <view class='body' bindtap='detail'>
+      <view class='body_name1'>
+        <view>
+          <image class="head" src="/img/bobi.jpg"></image>\t
+        </view>
+        <view class='body_name'>
+          <text>铁树花</text>
+        </view>
+      </view>
+        <view>
+          <text class='txt'>谢邀。先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好。爱美丽作为主帅</text>
+        </view>
+    </view> 
+
+        <view class='body'>
+      <view class='body_name1'>
+        <view>
+          <image class="head" src="/img/bobi.jpg"></image>\t
+        </view>
+        <view class='body_name'>
+          <text>铁树花</text>
+        </view>
+      </view>
+        <view>
+          <text class='txt'>谢邀。先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好。爱美丽作为主帅</text>
+        </view>
+    </view> 
+
+        <view class='body'>
+      <view class='body_name1'>
+        <view>
+          <image class="head" src="/img/bobi.jpg"></image>\t
+        </view>
+        <view class='body_name'>
+          <text>铁树花</text>
+        </view>
+      </view>
+        <view>
+          <text class='txt'>谢邀。先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好。爱美丽作为主帅</text>
+        </view>
+    </view>  
+  </view>
+</scroll-view>

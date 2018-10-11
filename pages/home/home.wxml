@@ -1,0 +1,124 @@
+<!--pages/home/home.wxml-->
+<view class='home'>
+    <view class='page_row' bindtap="suo">
+        <view class="df search_arr">
+          <icon class="searchcion" size='20' type='search'></icon>
+          <input class="" disabled placeholder="请输入关键字" value="{{searchValue}}"/>
+        </view>
+        <view class='sousuo'>搜索</view>
+    </view>
+    
+    <view class='list'>
+      <view class='order'>
+        <text class='num'>01</text>
+      </view>
+      <view class='content'>
+        <view bindtap='all'>
+            <view>
+              <text class='title'>如何评价 2018-2019 赛季英超联赛首轮阿森纳 0:2 主场不敌曼城？</text>
+            </view>
+            <view>
+              <text class='hot'>535万热度</text>
+            </view>
+        </view>
+        <view>
+          <image class="pic" src="/img/game.jpg" mode="aspectFill"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class='list'>
+      <view class='order'>
+        <text class='num'>02</text>
+      </view>
+      <view class='content'>
+        <view bindtap='detail'>
+            <view>
+              <text class='title'>如何评价 2018-2019 赛季英超联赛首轮阿森纳 0:2 主场不敌曼城？</text>
+            </view>
+            <view>
+              <text class='hot'>535万热度</text>
+            </view>
+        </view>
+        <view>
+          <image class="pic" src="/img/game.jpg" mode="aspectFill"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class='list'>
+      <view class='order'>
+        <text class='num'>03</text>
+      </view>
+      <view class='content'>
+        <view bindtap='detail'>
+            <view>
+              <text class='title'>如何评价 2018-2019 赛季英超联赛首轮阿森纳 0:2 主场不敌曼城？</text>
+            </view>
+            <view>
+              <text class='hot'>535万热度</text>
+            </view>
+        </view>
+        <view>
+          <image class="pic" src="/img/game.jpg" mode="aspectFill"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class='list'>
+      <view class='order'>
+        <text class='num'>04</text>
+      </view>
+      <view class='content'>
+        <view bindtap='detail'>
+            <view>
+              <text class='title'>如何评价 2018-2019 赛季英超联赛首轮阿森纳 0:2 主场不敌曼城？</text>
+            </view>
+            <view>
+              <text class='hot'>535万热度</text>
+            </view>
+        </view>
+        <view>
+         <image class="pic" src="/img/game.jpg" mode="aspectFill"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class='list'>
+      <view class='order'>
+        <text class='num'>05</text>
+      </view>
+      <view class='content'>
+        <view bindtap='detail'>
+            <view>
+              <text class='title'>如何评价 2018-2019 赛季英超联赛首轮阿森纳 0:2 主场不敌曼城？</text>
+            </view>
+            <view>
+              <text class='hot'>535万热度</text>
+            </view>
+        </view>
+        <view>
+          <image class="pic" src="/img/game.jpg" mode="aspectFill"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class='list'>
+      <view class='order'>
+        <text class='num'>06</text>
+      </view>
+      <view class='content'>
+        <view bindtap='detail'>
+            <view>
+              <text class='title'>如何评价 2018-2019 赛季英超联赛首轮阿森纳 0:2 主场不敌曼城？</text>
+            </view>
+            <view>
+              <text class='hot'>535万热度</text>
+            </view>
+        </view>
+        <view>
+          <image class="pic" src="/img/game.jpg" mode="aspectFill"></image>
+        </view>
+      </view>
+    </view>
+</view>

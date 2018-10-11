@@ -1,0 +1,99 @@
+/* pages/all/all.wxss */
+/* .out_title{
+  border-bottom: solid #9da3a0 4px;
+} */
+.inner_title{
+  margin-bottom: 10px
+}
+.title{
+  padding: 10px;
+}
+.title_detail{
+  font-size: 16px;
+  color: #050008f1;
+}
+.hot{
+  font-size: 15px;
+  color: rgb(134, 133, 133);
+}
+.pic{
+  width: 12px;
+  height: 12px;
+  padding-top: 2px;
+  margin-right: 2px;
+}
+.pic1{
+  width: 15px;
+  height: 15px;
+  padding-top: 2px;
+  margin-right: 2px;
+}
+.answer{
+  font-size: 12px;
+  color: #01a92e;
+  margin-bottom: 10px
+}
+.out_answer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.in_answer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid #eaecebd8 2px;
+  padding: 10px
+}
+.bor{
+  border:  solid #eaecebd8 1px
+}
+.bor_ans{
+  margin: 5px 20px
+}
+.out_ans{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(202, 202, 202)
+}
+.pos{
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(202, 202, 202);
+}
+.head{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px 10px
+}
+.name{
+  margin-bottom: 30px
+}
+.body{
+  background-color: #f2f0f3f1;
+  margin: 1px 1px;
+  padding: 10px
+}
+.body_name{
+  margin-top: 20px
+}
+.txt{
+  margin: 10px 10px;
+  display: -webkit-box;
+  font-size:35rpx;
+  color:#000000;
+  line-height: 50rpx;
+  word-break: break-all; /**再恰当的地方换行 （normal/break-all/keep-all） */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:3; /**显示行数 */
+  overflow: hidden; /** 超出文字隐藏*/
+  text-overflow:ellipsis;/**文本溢出用省略号显示*/
+
+}
+.body_name1{
+  display: flex;
+  flex-direction: row;
+}
